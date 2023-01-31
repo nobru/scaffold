@@ -5,11 +5,19 @@
     "description": "Nobru scaffold",
     "minimum-stability": "dev",
     "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:nobru/framework.git",
+            "no-api": true
+        }
+    ],
     "require": {
         "php": ">=8.0",
         "ext-ctype": "*",
         "ext-iconv": "*",
-        "symfony/flex": "^2"
+        "symfony/flex": "^2",
+        "nobru/framework": "dev-main"
     },
     "flex-require": {
         "symfony/console": "*",
