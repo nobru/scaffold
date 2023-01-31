@@ -12,6 +12,6 @@
     ],
     "require": {
         "php": "8.0.*",
-        "nobru/framework": "dev-master"
+        "nobru/framework": "dev-main"
     }
 }
