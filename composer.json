@@ -3,6 +3,8 @@
     "license": "proprietary",
     "name": "nobru/scaffold",
     "description": "Nobru scaffold",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "repositories": [
         {
             "type": "vcs",
