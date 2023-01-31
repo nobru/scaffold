@@ -1,0 +1,17 @@
+{
+    "type": "project",
+    "license": "proprietary",
+    "name": "nobru/scaffold",
+    "description": "Nobru scaffold",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:nobru/framework.git",
+            "no-api": true
+        }
+    ],
+    "require": {
+        "php": "8.0.*",
+        "nobru/framework": "dev-master"
+    }
+}
