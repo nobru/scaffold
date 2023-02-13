@@ -1,27 +1,28 @@
-* NOBRU SCAFFOLD APPLICATION
+NOBRU SCAFFOLD APPLICATION
+==========================
 
 
-** Start development server with basic informations
+## Start development server with basic informations
 
-*** Create the project
+### Create the project
 ```
 composer create-project nobru/scaffold api
 ```
 
-*** Start database
+### Start database
 ```
 docker-compose -f vendor/nobru/framework/docker-compose.yml up -d
 ```
 
-*** Configure application
+### Configure application
 ```
 bin/console nobru:framework:setup-application
 ```
 
-*** Start server
+### Start server
 ```
 symfony start:server
 ```
 
-*** Access api application
+### Access api application
 [https://127.0.0.1:8000/](https://127.0.0.1:8000/)
